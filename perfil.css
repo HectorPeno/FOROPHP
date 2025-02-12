@@ -1,0 +1,145 @@
+/* Estilos generales */
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f4f7fc; /* Fondo suave */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: #3498db;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+}
+
+/* Sección de contenido */
+section {
+    width: 70%;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+/* Información del Usuario */
+section p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+section p strong {
+    font-weight: 600;
+}
+
+/* Temas */
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+section ul li a {
+    color: #3498db;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+section ul li a:hover {
+    color: #2980b9;
+}
+
+section ul li a:last-child {
+    margin-left: 15px;
+    color: #e74c3c;
+    font-size: 1.3em;
+}
+
+section ul li a:last-child:hover {
+    color: #c0392b;
+}
+
+/* Estilos para botones de acción */
+button {
+    padding: 10px 15px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+button:active {
+    background: #2980b9;
+    transform: scale(0.98);
+}
+
+/* Estilos para mensajes de éxito o error */
+.alert {
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.success {
+    background: #2ecc71;
+    color: white;
+}
+
+.error {
+    background: #e74c3c;
+    color: white;
+}

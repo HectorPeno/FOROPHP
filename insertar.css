@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor del formulario */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #1f81e4;
+    text-align: center;
+}
+
+label {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: 0.3s ease;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Botón de enviar */
+button {
+    padding: 10px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+button:active {
+    background: #2980b9;
+    transform: scale(0.98);
+}
+
+.success, .error {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success {
+    color: #155724;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    color: #721c24;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+.success a {
+    color: #155724;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.success a:hover {
+    text-decoration: underline;
+}
