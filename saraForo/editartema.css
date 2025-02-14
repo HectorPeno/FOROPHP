@@ -1,0 +1,156 @@
+/* Estilos generales */
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f4f7fc; /* Fondo suave */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: #3498db;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilos de la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f1c40f;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a:active {
+    color: #1abc9c;
+}
+
+/* Sección de editar tema */
+section {
+    width: 60%;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+/* Mensajes de error */
+section p {
+    font-size: 1.1em;
+    color: #34495e;
+    margin: 10px 0;
+}
+
+section p strong {
+    color: #e74c3c;
+}
+
+/* Formulario de edición */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 8px;
+}
+
+form input[type="text"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #34495e;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+form button:active {
+    background-color: #1abc9c;
+}
+
+/* Enlace para volver al inicio */
+section p a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+section p a:hover {
+    color: #2980b9;
+}
+
+/* Estilos para alertas */
+.alert {
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.success {
+    background: #2ecc71;
+    color: white;
+}
+
+.error {
+    background: #e74c3c;
+    color: white;
+}
